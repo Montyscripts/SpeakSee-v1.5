@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-title 🚀 SpeakSee Clean Uninstall - Julian Signature Edition
+title 🚀 SpeakSee Clean Uninstall - Monty Signature Edition
 color 0A
 
 echo ============================
