@@ -62,8 +62,6 @@ After installation, you’ll see:
 
 A dist folder containing SpeakSee.exe
 
-(Optional) A desktop shortcut (if you chose "Y")
-
 🚀 Double-click SpeakSee.exe to launch the app!
 
 🎉 Done! Enjoy SpeakSee! 🔊 Use your voice to search the web & YouTube instantly!
@@ -74,7 +72,7 @@ Make sure all files are in the same folder.
 
 If errors occur, restart your PC and try again.
 
-Still stuck? Contact support! 📧
+Still stuck? Contact support via email! 📧
 
 🌟 Pro Tip: Want to move the app? Copy the entire dist folder to keep everything working!
 
