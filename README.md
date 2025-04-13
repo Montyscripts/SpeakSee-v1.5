@@ -48,7 +48,7 @@ Double-click SpeakSee_Installer.bat 🔒 It will automatically request admin rig
 
 The installer will:
 
-✔ Install Python (if not already installed)
+✔ Check Install of Python (if not already installed)
 
 ✔ Download & set up all required packages
 
