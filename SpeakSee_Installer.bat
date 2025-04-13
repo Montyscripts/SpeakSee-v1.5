@@ -3,6 +3,21 @@ SETLOCAL ENABLEEXTENSIONS
 cd /d "%~dp0"
 
 :: ===============================
+:: Display Coffee Art
+:: ===============================
+echo       ( (
+echo        ) )
+echo     ........
+echo     ^|      ^|]   ☕ SPEAKSEE INSTALLER ☕
+echo     \      /
+echo      `----'     Brewing intelligence...
+echo                 Heating up neural beans...
+echo                 Loading fresh ideas...
+echo                 Please wait.
+echo.
+timeout /t 2 >nul
+
+:: ===============================
 :: Auto-run as administrator
 :: ===============================
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
