@@ -51,8 +51,10 @@ Want to move the app? Copy the entire dist folder to keep everything working!
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 SpeakSee - Voice-Activated Search Assistant
-SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform hands-free searches quickly and efficiently.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform hands-free searches quickly and efficiently.
+
 ✨ Features
 🎤 Voice-Activated Search - Speak your query to search Bing or YouTube
 
