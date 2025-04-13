@@ -108,5 +108,3 @@ Works best with Windows 10/11
 All sound/image files should be placed in the project directory
 
 Created by Caleb W. Broussard | Version 1.5
-
-This description highlights the key features while maintaining a clean, organized format suitable for GitHub. It includes emojis for visual appeal and clear section headers for readability. You may want to add screenshots or a demo video link if available.
