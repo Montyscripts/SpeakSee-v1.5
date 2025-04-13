@@ -80,7 +80,7 @@ Still stuck? Contact support! 📧
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-SpeakSee - Voice-Activated Search Assistant
+SpeakSee V1.5 - Voice-Activated Search Assistant
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform hands-free searches quickly and efficiently.
