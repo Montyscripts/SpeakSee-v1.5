@@ -109,13 +109,7 @@ echo ########################################################
 echo The SpeakSee.exe file is located in the 'dist' folder.
 echo You can now run it directly from there.
 echo.
-
 :: ===============================
-:: Skip desktop shortcut creation
-:: ===============================
-echo The shortcut creation has been skipped.
-echo You can manually create a shortcut by right-clicking on SpeakSee.exe in the 'dist' folder.
-
 echo.
 echo Installation is complete. You can close this window now.
 pause
