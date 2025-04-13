@@ -1,14 +1,26 @@
 Python Installation Instructions (for those missing Python)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-If you see an error that Python is not installed, visit the official Python website.
+If you see an error that Python is not installed, follow these steps:
 
-Download the latest version (make sure it’s version 3.11.x or later).
+Download Python 3.10.0:
 
-Install Python following the instructions on the website:
+Go to the official Python website.
 
-Ensure to check the option to add Python to your PATH during installation.
+Download Python 3.10.0 (this version is required for the script to work properly).
 
-After installation, you can run the installer again to continue setting up SpeakSee!
+Install Python:
+
+Run the downloaded installer.
+
+Important: Make sure to check the option to add Python to your PATH during installation.
+
+Finish the Installation:
+
+Follow the on-screen instructions to complete the installation.
+
+Re-run the Installer:
+
+After installing Python 3.10.0, run the SpeakSee_Installer.bat again to continue setting up SpeakSee.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 SpeakSee Installation Guide 🎤👀
