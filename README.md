@@ -1,8 +1,22 @@
+Python Installation Instructions (for those missing Python)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you see an error that Python is not installed, visit the official Python website.
+
+Download the latest version (make sure it’s version 3.11.x or later).
+
+Install Python following the instructions on the website:
+
+Ensure to check the option to add Python to your PATH during installation.
+
+After installation, you can run the installer again to continue setting up SpeakSee!
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 SpeakSee Installation Guide 🎤👀
 Follow these simple steps to install SpeakSee on your Windows PC:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1️⃣ Download the Files
-📥 Download the SpeakSee folder containing:
+1️⃣ Download the Files 📥
+
+Download the SpeakSee folder containing:
 
 SpeakSee.py (main program)
 
@@ -10,24 +24,29 @@ SpeakSee_Installer.bat (automatic installer)
 
 Other files (Icon.png, Button.mp3, etc.)
 
-(Make sure all files are in the same folder!)
+Make sure all files are in the same folder!
 
-2️⃣ Run the Installer
-🖱️ Double-click SpeakSee_Installer.bat
-🔒 It will automatically request admin rights (click Yes if prompted).
+2️⃣ Run the Installer 🖱️
+
+Double-click SpeakSee_Installer.bat 🔒 It will automatically request admin rights (click Yes if prompted).
 
 (No need to manually "Run as Administrator"!)
 
-3️⃣ Wait for Installation
-⏳ The installer will:
+3️⃣ Wait for Installation ⏳
+
+The installer will:
+
 ✔ Install Python (if not already installed)
+
 ✔ Download & set up all required packages
+
 ✔ Build the SpeakSee.exe file
 
 (This may take a few minutes—grab a coffee! ☕)
 
-4️⃣ Find & Run SpeakSee
-✅ After installation, you’ll see:
+4️⃣ Find & Run SpeakSee ✅
+
+After installation, you’ll see:
 
 A dist folder containing SpeakSee.exe
 
@@ -35,18 +54,17 @@ A dist folder containing SpeakSee.exe
 
 🚀 Double-click SpeakSee.exe to launch the app!
 
-🎉 Done! Enjoy SpeakSee!
-🔊 Use your voice to search the web & YouTube instantly!
+🎉 Done! Enjoy SpeakSee! 🔊 Use your voice to search the web & YouTube instantly!
 
 ❓ Need Help?
+
 Make sure all files are in the same folder.
 
 If errors occur, restart your PC and try again.
 
 Still stuck? Contact support! 📧
 
-🌟 Pro Tip:
-Want to move the app? Copy the entire dist folder to keep everything working!
+🌟 Pro Tip: Want to move the app? Copy the entire dist folder to keep everything working!
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
