@@ -106,11 +106,6 @@ echo.
 echo ########################################################
 echo #         Installation completed successfully! 🚀      #
 echo ########################################################
-echo The SpeakSee.exe file is located in the 'dist' folder.
-echo You can now run it directly from there.
-echo.
-:: ===============================
-echo.
 echo Installation is complete. You can close this window now.
 pause
 exit /b
