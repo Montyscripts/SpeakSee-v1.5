@@ -108,24 +108,32 @@ echo #         Installation completed successfully! 🚀      #
 echo ########################################################
 echo You can now run SpeakSee.exe from the 'dist' folder.
 echo.
+
+:: ===============================
+:: Ask about desktop shortcut (only if exe exists)
+:: ===============================
 set /p CREATESHORTCUT="Create desktop shortcut? (Y/N): "
 if /i "%CREATESHORTCUT%"=="Y" (
     set "DESKTOP=%USERPROFILE%\Desktop\SpeakSee.lnk"
     set "TARGET=%~dp0dist\SpeakSee.exe"
     set "ICON=%~dp0Icon.png"
-    
-    echo Creating desktop shortcut...
-    set "VBS=%temp%\shortcut.vbs"
-    echo Set oWS = WScript.CreateObject("WScript.Shell") > "%VBS%"
-    echo sLinkFile = "%DESKTOP%" >> "%VBS%"
-    echo Set oLink = oWS.CreateShortcut(sLinkFile) >> "%VBS%"
-    echo oLink.TargetPath = "%TARGET%" >> "%VBS%"
-    echo oLink.WorkingDirectory = "%~dp0dist" >> "%VBS%"
-    echo oLink.IconLocation = "%ICON%" >> "%VBS%"
-    echo oLink.Save >> "%VBS%"
-    cscript /nologo "%VBS%"
-    del "%VBS%"
-    echo Shortcut created on your desktop.
+
+    if exist "%TARGET%" (
+        echo Creating desktop shortcut...
+        set "VBS=%temp%\shortcut.vbs"
+        echo Set oWS = WScript.CreateObject("WScript.Shell") > "%VBS%"
+        echo sLinkFile = "%DESKTOP%" >> "%VBS%"
+        echo Set oLink = oWS.CreateShortcut(sLinkFile) >> "%VBS%"
+        echo oLink.TargetPath = "%TARGET%" >> "%VBS%"
+        echo oLink.WorkingDirectory = "%~dp0dist" >> "%VBS%"
+        echo oLink.IconLocation = "%ICON%" >> "%VBS%"
+        echo oLink.Save >> "%VBS%"
+        cscript /nologo "%VBS%"
+        del "%VBS%"
+        echo Shortcut created on your desktop.
+    ) else (
+        echo ERROR: Cannot create shortcut because SpeakSee.exe was not found.
+    )
 )
 
 echo.
