@@ -1,3 +1,55 @@
+SpeakSee Installation Guide 🎤👀
+Follow these simple steps to install SpeakSee on your Windows PC:
+
+1️⃣ Download the Files
+📥 Download the SpeakSee folder containing:
+
+SpeakSee.py (main program)
+
+SpeakSee_Installer.bat (automatic installer)
+
+Other files (Icon.png, Button.mp3, etc.)
+
+(Make sure all files are in the same folder!)
+
+2️⃣ Run the Installer
+🖱️ Double-click SpeakSee_Installer.bat
+🔒 It will automatically request admin rights (click Yes if prompted).
+
+(No need to manually "Run as Administrator"!)
+
+3️⃣ Wait for Installation
+⏳ The installer will:
+✔ Install Python (if not already installed)
+✔ Download & set up all required packages
+✔ Build the SpeakSee.exe file
+
+(This may take a few minutes—grab a coffee! ☕)
+
+4️⃣ Find & Run SpeakSee
+✅ After installation, you’ll see:
+
+A dist folder containing SpeakSee.exe
+
+(Optional) A desktop shortcut (if you chose "Y")
+
+🚀 Double-click SpeakSee.exe to launch the app!
+
+🎉 Done! Enjoy SpeakSee!
+🔊 Use your voice to search the web & YouTube instantly!
+
+❓ Need Help?
+Make sure all files are in the same folder.
+
+If errors occur, restart your PC and try again.
+
+Still stuck? Contact support! 📧
+
+🌟 Pro Tip:
+Want to move the app? Copy the entire dist folder to keep everything working!
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 SpeakSee - Voice-Activated Search Assistant
 SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform hands-free searches quickly and efficiently.
 
