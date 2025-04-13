@@ -106,35 +106,15 @@ echo.
 echo ########################################################
 echo #         Installation completed successfully! 🚀      #
 echo ########################################################
-echo You can now run SpeakSee.exe from the 'dist' folder.
+echo The SpeakSee.exe file is located in the 'dist' folder.
+echo You can now run it directly from there.
 echo.
 
 :: ===============================
-:: Ask about desktop shortcut (only if exe exists)
+:: Skip desktop shortcut creation
 :: ===============================
-set /p CREATESHORTCUT="Create desktop shortcut? (Y/N): "
-if /i "%CREATESHORTCUT%"=="Y" (
-    set "DESKTOP=%USERPROFILE%\Desktop\SpeakSee.lnk"
-    set "TARGET=%~dp0dist\SpeakSee.exe"
-    set "ICON=%~dp0Icon.png"
-
-    if exist "%TARGET%" (
-        echo Creating desktop shortcut...
-        set "VBS=%temp%\shortcut.vbs"
-        echo Set oWS = WScript.CreateObject("WScript.Shell") > "%VBS%"
-        echo sLinkFile = "%DESKTOP%" >> "%VBS%"
-        echo Set oLink = oWS.CreateShortcut(sLinkFile) >> "%VBS%"
-        echo oLink.TargetPath = "%TARGET%" >> "%VBS%"
-        echo oLink.WorkingDirectory = "%~dp0dist" >> "%VBS%"
-        echo oLink.IconLocation = "%ICON%" >> "%VBS%"
-        echo oLink.Save >> "%VBS%"
-        cscript /nologo "%VBS%"
-        del "%VBS%"
-        echo Shortcut created on your desktop.
-    ) else (
-        echo ERROR: Cannot create shortcut because SpeakSee.exe was not found.
-    )
-)
+echo The shortcut creation has been skipped.
+echo You can manually create a shortcut by right-clicking on SpeakSee.exe in the 'dist' folder.
 
 echo.
 echo Installation is complete. You can close this window now.
