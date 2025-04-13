@@ -1,6 +1,6 @@
 SpeakSee Installation Guide 🎤👀
 Follow these simple steps to install SpeakSee on your Windows PC:
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1️⃣ Download the Files
 📥 Download the SpeakSee folder containing:
 
