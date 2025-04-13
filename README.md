@@ -120,11 +120,11 @@ pip install -r requirements.txt
 Run main.py
 
 🎮 Usage
-Click the main button or press the mic key to start voice search
+Click the main button to start voice search
 
-Say "YouTube" followed by your query to search YouTube
+Say "YouTube" followed by your query to search things on YouTube
 
-Say anything else to perform a Bing search
+Say whatever comes to mind, to perform a Bing search
 
 Use the ☰ menu to access settings and customization options
 
