@@ -2,7 +2,7 @@ Python Installation Instructions (for those missing Python)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 If you see an error that Python is not installed, follow these steps:
 
-Download Python 3.10.0:
+Download Python 3.10.0
 
 Go to the official Python website.
 
