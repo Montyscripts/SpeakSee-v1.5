@@ -3,6 +3,11 @@ SETLOCAL ENABLEEXTENSIONS
 cd /d "%~dp0"
 
 :: ===============================
+:: Set Text Color to Lime Green
+:: ===============================
+color 0A
+
+:: ===============================
 :: Display Coffee Art
 :: ===============================
 echo       ( (
