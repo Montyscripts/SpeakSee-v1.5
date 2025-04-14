@@ -490,7 +490,7 @@ def close_menu_if_open(event):
 
 # GUI Initialization
 root = tk.Tk()
-root.title('SpeakSee V1.5')
+root.title('SpeakSee v1.5')
 root.minsize(400, 300)
 root.maxsize(1920, 1080)
 
