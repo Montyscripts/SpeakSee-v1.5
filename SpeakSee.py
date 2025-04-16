@@ -442,7 +442,7 @@ def animate_menu(step, direction):
     global menu_animation_id, menu_visible
     
     menu_width = 120
-    menu_height = 220
+    menu_height = 217
     
     if direction == "in":
         new_x = -menu_width + (step * 12)
@@ -530,7 +530,7 @@ if os.path.exists(background_path):
 
 # Menu Frame
 menu_frame = tk.Frame(root, bg='#333333', bd=0)
-menu_frame.place(x=-120, y=0, width=120, height=220)
+menu_frame.place(x=-120, y=0, width=120, height=217)
 
 # Menu Buttons
 button_pady = 2
@@ -561,8 +561,8 @@ tk.Frame(menu_frame, height=5, bg='#333333').pack(pady=(0, 10))
 style = ttk.Style()
 style.configure('Small.TButton', 
                borderwidth=1, 
-               padding=(3, 2),
-               font=('Helvetica', 9))
+               padding=(1, 1.5),
+               font=('Helvetica', 8))
 
 # Main Button Setup
 image_path = resource_path('Button.png')
@@ -602,15 +602,15 @@ listening_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='black', 
 listening_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 
 # Active indicators (blue with thick black outline)
-active_indicator_top_right = tk.Label(root, width=2, height=1, bg='DodgerBlue', bd=2, relief='solid')
+active_indicator_top_right = tk.Label(root, width=2, height=1, bg='skyblue', bd=2, relief='solid')
 active_indicator_top_right.place(relx=1.0, rely=0, x=-25, y=10)
 active_indicator_top_right.lower(listening_indicator_top_right)
 
-active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='DodgerBlue', bd=2, relief='solid')
+active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='skyblue', bd=2, relief='solid')
 active_indicator_bottom_right.place(relx=1.0, rely=1.0, x=-25, y=-25)
 active_indicator_bottom_right.lower(listening_indicator_bottom_right)
 
-active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='DodgerBlue', bd=2, relief='solid')
+active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='skyblue', bd=2, relief='solid')
 active_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 active_indicator_bottom_left.lower(listening_indicator_bottom_left)
 
