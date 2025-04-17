@@ -1,27 +1,20 @@
-Python Installation Instructions (for those missing Python)
+🐍 Python Installation (If You Don’t Have Python)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If your system moans about missing Python, here’s how to shut it up:
 
-If you see an error that Python is not installed, follow these steps:
+✅ Step 1: Download Python 3.10.0
+Go to the official Python download page
+Download the Windows installer for Python 3.10.0
 
-Download Python 3.10.0
+✅ Step 2: Install Python
+Run the installer
 
-Go to the official Python website.
+IMPORTANT: ✅ Check the box that says “Add Python to PATH”
 
-Download Python 3.10.0 (this version is required for the script to work properly).
+Click “Install Now” and let it do its thing
 
-Install Python:
-
-Run the downloaded installer.
-
-Important: Make sure to check the option to add Python to your PATH during installation.
-
-Finish the Installation:
-
-Follow the on-screen instructions to complete the installation.
-
-Re-run the Installer:
-
-After installing Python 3.10.0, run the SpeakSee_Installer.bat again to continue setting up SpeakSee.
+✅ Step 3: Re-run the Installer
+Once Python is installed, run Synthra_Installer.bat again to keep setup rolling.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 🚀 SpeakSee Installation Guide🌐
