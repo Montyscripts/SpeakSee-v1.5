@@ -25,14 +25,6 @@ echo 🧹 Step 2: Cleaning pip cache...
 pip cache purge
 
 echo.
-echo 🗑️ Step 3: Removing Python environment variables (Python install is safe)...
-setx PYTHONPATH "" >nul
-echo [✓] PYTHONPATH cleared.
-
-REM Inform user about PATH
-echo [!] Note: For safety, PATH variable not auto-edited.
-echo Please manually check your system PATH for any old Python entries.
-
 echo.
 echo 💀 Step 4: Killing SpeakSee.exe if running...
 taskkill /f /im SpeakSee.exe >nul 2>&1
