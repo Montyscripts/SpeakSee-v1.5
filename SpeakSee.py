@@ -602,15 +602,15 @@ listening_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='black', 
 listening_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 
 # Active indicators (blue with thick black outline)
-active_indicator_top_right = tk.Label(root, width=2, height=1, bg='azure', bd=2, relief='solid')
+active_indicator_top_right = tk.Label(root, width=2, height=1, bg='Skyblue', bd=2, relief='solid')
 active_indicator_top_right.place(relx=1.0, rely=0, x=-25, y=10)
 active_indicator_top_right.lower(listening_indicator_top_right)
 
-active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='azure', bd=2, relief='solid')
+active_indicator_bottom_right = tk.Label(root, width=2, height=1, bg='Skyblue', bd=2, relief='solid')
 active_indicator_bottom_right.place(relx=1.0, rely=1.0, x=-25, y=-25)
 active_indicator_bottom_right.lower(listening_indicator_bottom_right)
 
-active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='azure', bd=2, relief='solid')
+active_indicator_bottom_left = tk.Label(root, width=2, height=1, bg='Skyblue', bd=2, relief='solid')
 active_indicator_bottom_left.place(relx=0, rely=1.0, x=10, y=-25)
 active_indicator_bottom_left.lower(listening_indicator_bottom_left)
 
