@@ -231,10 +231,14 @@ def show_rules():
     center_window_on_parent(rules_window, 400, 300)
 
     rules_label = tk.Label(rules_window, 
-                         text="By clicking the SpeakSee button then speaking, users can quickly find relevant information without typing!\n\n⬆HINT⬆: Use the word 'YouTube' before what you ask and boom!\n\nA Windows application designed to simplify Web and YouTube searches using voice commands.\n\nSpeakSee |v1.5 | Created by Caleb W. Broussard.",
+                         text ="SpeakSee - Voice Search Assistant\n\n"
+                               "Click the SpeakSee button, then speak to search instantly—no typing needed!\n\n"
+                               "⬆ HINT: Say 'YouTube' before your question to search videos directly\n\n"
+                               "A Windows app designed to simplify web and YouTube searches using voice commands.\n\n"
+                               "SpeakSee | v1.5 | Created by Caleb W. Broussard",
                          font=("Helvetica", 12),
                          wraplength=380,
-                         justify='left')
+                         justify='center')
     rules_label.pack(padx=10, pady=10)
 
     close_button = tk.Button(rules_window, text="Close", command=lambda: [play_sound("menu"), rules_window.destroy()], font=("Helvetica", 10))
