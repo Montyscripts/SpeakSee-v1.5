@@ -1,6 +1,7 @@
 # Requirements for SpeakSee Voice Search Application
 # Python package dependencies
 
+pyinstaller
 Pillow==9.5.0           # Image processing (PIL)
 pyttsx3==2.90          # Text-to-speech engine
 SpeechRecognition==3.10.0  # Voice recognition
