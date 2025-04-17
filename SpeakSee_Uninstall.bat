@@ -26,11 +26,11 @@ pip cache purge
 
 echo.
 echo.
-echo 💀 Step 4: Killing SpeakSee.exe if running...
+echo 💀 Step 3: Killing SpeakSee.exe if running...
 taskkill /f /im SpeakSee.exe >nul 2>&1
 
 echo.
-echo 🗂️ Step 5: Preparing to delete SpeakSee folder and SpeakSee-v1.5-main...
+echo 🗂️ Step 4: Preparing to delete SpeakSee folder and SpeakSee-v1.5-main...
 
 REM Explicitly remove the "SpeakSee-v1.5-main" folder
 set "SPEAKSEE_MAIN_FOLDER=%CURRENT_DIR%SpeakSee-v1.5-main"
@@ -50,7 +50,7 @@ echo del "%%~f0" >> "%DELETE_SCRIPT%"
 echo exit >> "%DELETE_SCRIPT%"
 
 echo.
-echo 🧨 Step 6: Self-destructing script...
+echo 🧨 Step 5: Self-destructing script...
 call "%DELETE_SCRIPT%"
 
 exit
