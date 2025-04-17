@@ -1,5 +1,9 @@
-Python Installation Instructions (for those missing Python)
+🚀 SpeakSee Installation Guide🌐
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Your Voice-Activated Search Assistant—Instant & Effortless
+
+Python Installation Instructions (for those missing Python)
+
 If you see an error that Python is not installed, follow these steps:
 
 Download Python 3.10.0
