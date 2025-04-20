@@ -57,15 +57,15 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-4️⃣ Find & Run SpeakSee ✅
+4️⃣ Find & Run SpeakSee 
 
-After installation, you’ll see:
+✅ After installation, you’ll see:
 
-A dist folder containing SpeakSee.exe
+✔ A dist folder containing SpeakSee.exe
 
-🚀 Double-click SpeakSee.exe to launch the app!
+✔  Double-click SpeakSee.exe to launch the app!
 
-🎉 Done! Enjoy SpeakSee! 🔊 Use your voice to search the web & YouTube instantly!
+✔  Done! Enjoy SpeakSee! 🔊 Use your voice to search the web & YouTube instantly!
 
 ❓ Need Help?
 
