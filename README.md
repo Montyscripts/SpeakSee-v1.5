@@ -82,7 +82,7 @@ ________________________________________________________________________________
 Using SpeakSee - Setup Video
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-https://github.com/user-attachments/assets/e7b5d46c-4ff0-4389-9994-3f604fb0b5e3
+https://github.com/user-attachments/assets/0be567d6-52cc-410f-acee-d3944dc07436
 
 SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform searches quickly and efficiently.
 
