@@ -23,25 +23,26 @@ Your Voice-Activated Search Assistant—Instant & Effortless
 
 1️⃣ Download the Files 📥
 
-Download the SpeakSee folder containing:
+![Step 1 - Download](https://github.com/user-attachments/assets/2225a954-1a1b-4c72-8c82-b0f3f5d78995)
 
-SpeakSee.py (main program)
+✅ Download the SpeakSee folder containing:
 
-SpeakSee_Installer.bat (automatic installer)
+✔ SpeakSee.py (main program)
 
-Other files (Icon.png, Button.mp3, etc.)
+✔ SpeakSee_Installer.bat (automatic installer)
 
-Make sure all files are in the same folder!
+✔ Other files (Icon.png, Button.mp3, etc.)
+
+✔ Make sure all files are in the same folder!
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 2️⃣ Run the Installer 🖱️
 
-Double-click SpeakSee_Installer.bat 🔒 It will automatically request admin rights (click Yes if prompted).
+✅ Double-click SpeakSee_Installer.bat 
 
-(No need to manually "Run as Administrator"!)
+✔ Click "Yes" if prompted for admin rights
 
-3️⃣ Wait for Installation ⏳
-
-The installer will:
+✔ The installer will:
 
 ✔ Check Install of Python (if not already installed)
 
@@ -50,6 +51,11 @@ The installer will:
 ✔ Build the SpeakSee.exe file
 
 (This may take a few minutes—grab a coffee! ☕)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+![Step 2 - Install (1)](https://github.com/user-attachments/assets/af3b2b32-3b1e-4eec-9a86-68424234889e)
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 4️⃣ Find & Run SpeakSee ✅
 
@@ -73,8 +79,10 @@ Still stuck? Contact support via email! 📧
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-SpeakSee - Voice-Activated Search Assistant
+Using SpeakSee - Setup Guide
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Step 3 - How2Use](https://github.com/user-attachments/assets/548846d1-113e-4f91-9967-6677ba260b76)
 
 SpeakSee is a Windows desktop application that simplifies web and YouTube searches using voice commands. With an intuitive interface and customizable features, it allows users to perform searches quickly and efficiently.
 
